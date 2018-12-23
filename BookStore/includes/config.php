@@ -1,4 +1,4 @@
-<?php 
-$conn=mysqli_connect("localhost","root","","book_store")or die("Can't Connect...");
+<?php
+$conn=mysqli_connect("35.201.220.5","root","123456","bookstore");
 	
 ?>
