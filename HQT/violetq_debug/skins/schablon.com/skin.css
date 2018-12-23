@@ -1,0 +1,165 @@
+/**
+* violetq `Schablon.com` Skin
+*
+* @version $Id: skin.css 6 2007-06-16 06:37:27Z mrasnika $
+* @author Kaloyan K. Tsvetkov <mrasnika@users.sourceforge.net>
+*/
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+ul.violetq-node {
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	}
+ul.violetq-node ul {
+	margin-left: 20px;
+	}
+* html ul.violetq-node ul {
+	margin-left: 24px;
+	}
+div.violetq-root {
+	border: solid 1px black;
+	margin: 1em 0em;
+	}
+ul.violetq-first {
+	font: normal 11px tahoma, verdana;
+	border: solid 1px white;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+li.violetq-child {
+	display:block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	overflow:hidden;
+	}
+div.violetq-element {
+	cursor:default;
+	display:block;
+	clear:both;
+	white-space:nowrap;
+
+	background-color: white;
+	background-image: url(%url%empty.gif);
+	background-repeat: no-repeat;
+	background-position: 6px 5px;
+	padding: 2px 0px 3px 20px;
+	}
+* html div.violetq-element {
+	padding-bottom: 3px;
+	line-height: 13px;
+	}
+div.violetq-expand {
+	background-image: url(%url%collapsed.gif);
+	cursor:pointer;
+	}
+div.violetq-hover {
+	background-color: #BFDFFF;
+	}
+div.violetq-opened {
+	background-image: url(%url%expanded.gif);
+	}
+a.violetq-name {
+	color:navy;
+	font: bold 13px courier new;
+	line-height:12px;
+	}
+a.violetq-name big {
+	font: bold 16pt Georgia;
+	line-height: 10px;
+	position:relative;
+	top:2px;
+	left:-2px;
+	}
+* html a.violetq-name big {
+	font: bold 15pt Georgia;
+	float:left;
+	top: -5px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	}
+em.violetq-type {
+	font-style:normal;
+	margin: 0px 2px;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+div.violetq-preview {
+	font: normal 13px courier new;
+	padding: 5px ;
+	background: lightyellow;
+	border: solid 1px #808000;
+	overflow:auto;
+	margin: 5px 1em 1em 0px;
+	}
+* html div.violetq-preview {
+	padding-top: 2px;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+li.violetq-footnote {
+	background: white url(%url%dotted.gif) repeat-x;
+	padding: 4px 5px 3px 5px;
+	list-style:none;
+	cursor:default;
+	}
+* html li.violetq-footnote {
+	line-height: 13px;
+	}
+div.violetq-version {
+	float:right;
+	}
+li.violetq-footnote h6 {
+	font: bold 11px verdana;
+	margin: 0px;
+	padding: 0px;
+	color:navy;
+	display:inline;
+	}
+* html li.violetq-footnote h6 {
+	margin-right: 3px;
+	}
+li.violetq-footnote a {
+	font: bold 10px arial;
+	color: #434343;
+	text-decoration:none;
+	}
+li.violetq-footnote a:hover {
+	color:black;
+	}
+
+
+li.violetq-footnote span.violetq-call {
+	font:normal 11px tahoma, verdana;
+	position: relative;
+	top: 1px;
+	}
+li.violetq-footnote span.violetq-call code {
+	font-weight:bold;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+div.violetq-title {
+	font: normal 11px tahoma, verdana;
+	position:relative;
+	top:9px;
+	cursor:default;
+	line-height:2px;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+strong.violetq-array-length,
+strong.violetq-string-length {
+	font-weight: normal;
+	color: #000099;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */

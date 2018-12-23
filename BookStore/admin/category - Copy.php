@@ -50,7 +50,7 @@
 										<select  name="parent">
 											<?php
 											
-												$link=mysql_connect("localhost","root","")or die("Can't Connect...");
+												$link=mysql_connect("35.201.220.5","root","123456")or die("Can't Connect...");
 					
 													mysql_select_db("shop",$link) or die("Can't Connect to Database...");
 					
@@ -85,7 +85,7 @@
 								<select name="del">
 									<?php
 									
-										$link=mysql_connect("localhost","root","")or die("Can't Connect...");
+										$link=mysql_connect("35.201.220.5","root","123456")or die("Can't Connect...");
 			
 											mysql_select_db("shop",$link) or die("Can't Connect to Database...");
 			
@@ -113,7 +113,7 @@
 								<select  name="subcatnm">
 									<?php
 									
-										$link=mysql_connect("localhost","root","")or die("Can't Connect...");
+										$link=mysql_connect("35.201.220.5","root","123456")or die("Can't Connect...");
 			
 											mysql_select_db("shop",$link) or die("Can't Connect to Database...");
 			

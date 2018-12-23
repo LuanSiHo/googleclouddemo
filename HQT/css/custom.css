@@ -1,0 +1,12 @@
+body{
+	min-height: 1000px;
+	padding-top: 50px;
+}
+.example{
+	margin: 5px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
