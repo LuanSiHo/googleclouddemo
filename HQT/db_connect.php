@@ -4,7 +4,7 @@
 	session_start();
 
 	function connect_db_mysql() {
-		$mysqli = new mysqli("localhost", "root", "", "hqt-csdl");
+		$mysqli = new mysqli("localhost", "lenguyen", "123456", "hqt-csdl");
 		mysqli_set_charset($mysqli, "utf8");
 		if($mysqli === false) {
 			die('ERROR: could not connect' . mysqli_connect_error());

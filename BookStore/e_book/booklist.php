@@ -1,7 +1,7 @@
 <?php session_start();
 
 	
-	$link=mysql_connect("localhost","root","")or die("Can't Connect...");
+	$link=mysql_connect("localhost","lenguyen","123456")or die("Can't Connect...");
 	
 	mysql_select_db("shop",$link) or die("Can't Connect to Database...");
 	
